@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63A13402570C76200C334AD /* PhoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A13302570C76200C334AD /* PhoneManager.swift */; };
+		C63A13412570C76200C334AD /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A13322570C76200C334AD /* PhoneViewModel.swift */; };
+		C63A13422570C76200C334AD /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A13352570C76200C334AD /* PhoneNumberView.swift */; };
+		C63A13432570C76200C334AD /* PhoneCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A13372570C76200C334AD /* PhoneCallView.swift */; };
+		C63A13442570C76200C334AD /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A13392570C76200C334AD /* PhoneView.swift */; };
+		C63A13452570C76200C334AD /* PhoneBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A133A2570C76200C334AD /* PhoneBackView.swift */; };
+		C63A13462570C76200C334AD /* PhoneCallingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A133C2570C76200C334AD /* PhoneCallingView.swift */; };
+		C63A13472570C76200C334AD /* PhoneEndCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A133E2570C76200C334AD /* PhoneEndCallView.swift */; };
+		C63A13482570C76200C334AD /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A133F2570C76200C334AD /* PhoneViewController.swift */; };
+		C63A134D2570C87000C334AD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A134C2570C87000C334AD /* Utilities.swift */; };
+		C63BC26A256DF83600D5C46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BC269256DF83600D5C46A /* AppDelegate.swift */; };
+		C63BC26C256DF83600D5C46A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BC26B256DF83600D5C46A /* SceneDelegate.swift */; };
+		C63BC26E256DF83600D5C46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BC26D256DF83600D5C46A /* ViewController.swift */; };
+		C63BC271256DF83600D5C46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63BC26F256DF83600D5C46A /* Main.storyboard */; };
+		C63BC273256DF83700D5C46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63BC272256DF83700D5C46A /* Assets.xcassets */; };
+		C63BC276256DF83700D5C46A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63BC274256DF83700D5C46A /* LaunchScreen.storyboard */; };
+		C63BC29A256DFA4100D5C46A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C63BC299256DFA4100D5C46A /* SnapKit */; };
+		C63BC2C7256F902500D5C46A /* DolphinHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = C63BC2C6256F902500D5C46A /* DolphinHTTP */; };
+		C63BC2CB256FAA5100D5C46A /* TwilioStudioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BC2CA256FAA5100D5C46A /* TwilioStudioAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C63A13302570C76200C334AD /* PhoneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneManager.swift; sourceTree = "<group>"; };
+		C63A13322570C76200C334AD /* PhoneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		C63A13352570C76200C334AD /* PhoneNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		C63A13372570C76200C334AD /* PhoneCallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCallView.swift; sourceTree = "<group>"; };
+		C63A13392570C76200C334AD /* PhoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		C63A133A2570C76200C334AD /* PhoneBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneBackView.swift; sourceTree = "<group>"; };
+		C63A133C2570C76200C334AD /* PhoneCallingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCallingView.swift; sourceTree = "<group>"; };
+		C63A133E2570C76200C334AD /* PhoneEndCallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneEndCallView.swift; sourceTree = "<group>"; };
+		C63A133F2570C76200C334AD /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		C63A134C2570C87000C334AD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C63BC266256DF83600D5C46A /* KKPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63BC269256DF83600D5C46A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C63BC26B256DF83600D5C46A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C63BC26D256DF83600D5C46A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C63BC270256DF83600D5C46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C63BC272256DF83700D5C46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C63BC275256DF83700D5C46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C63BC277256DF83700D5C46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63BC2CA256FAA5100D5C46A /* TwilioStudioAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioStudioAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C63BC263256DF83600D5C46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BC29A256DFA4100D5C46A /* SnapKit in Frameworks */,
+				C63BC2C7256F902500D5C46A /* DolphinHTTP in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63A132F2570C76200C334AD /* PhoneCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C63A13302570C76200C334AD /* PhoneManager.swift */,
+				C63A13312570C76200C334AD /* ViewModel */,
+				C63A13332570C76200C334AD /* Model */,
+				C63A13342570C76200C334AD /* View */,
+			);
+			path = PhoneCenter;
+			sourceTree = "<group>";
+		};
+		C63A13312570C76200C334AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C63A13322570C76200C334AD /* PhoneViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C63A13332570C76200C334AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C63A13342570C76200C334AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C63A13352570C76200C334AD /* PhoneNumberView.swift */,
+				C63A13362570C76200C334AD /* PhoneView */,
+				C63A133B2570C76200C334AD /* PhoneCallingView */,
+				C63A133F2570C76200C334AD /* PhoneViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C63A13362570C76200C334AD /* PhoneView */ = {
+			isa = PBXGroup;
+			children = (
+				C63A13372570C76200C334AD /* PhoneCallView.swift */,
+				C63A13382570C76200C334AD /* PhoneViews */,
+				C63A13392570C76200C334AD /* PhoneView.swift */,
+				C63A133A2570C76200C334AD /* PhoneBackView.swift */,
+			);
+			path = PhoneView;
+			sourceTree = "<group>";
+		};
+		C63A13382570C76200C334AD /* PhoneViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhoneViews;
+			sourceTree = "<group>";
+		};
+		C63A133B2570C76200C334AD /* PhoneCallingView */ = {
+			isa = PBXGroup;
+			children = (
+				C63A133C2570C76200C334AD /* PhoneCallingView.swift */,
+				C63A133D2570C76200C334AD /* PhoneCallingViews */,
+				C63A133E2570C76200C334AD /* PhoneEndCallView.swift */,
+			);
+			path = PhoneCallingView;
+			sourceTree = "<group>";
+		};
+		C63A133D2570C76200C334AD /* PhoneCallingViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhoneCallingViews;
+			sourceTree = "<group>";
+		};
+		C63BC25D256DF83600D5C46A = {
+			isa = PBXGroup;
+			children = (
+				C63BC268256DF83600D5C46A /* KKPhone */,
+				C63BC267256DF83600D5C46A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C63BC267256DF83600D5C46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C63BC266256DF83600D5C46A /* KKPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C63BC268256DF83600D5C46A /* KKPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C63BC269256DF83600D5C46A /* AppDelegate.swift */,
+				C63BC26B256DF83600D5C46A /* SceneDelegate.swift */,
+				C63BC26D256DF83600D5C46A /* ViewController.swift */,
+				C63BC26F256DF83600D5C46A /* Main.storyboard */,
+				C63A134C2570C87000C334AD /* Utilities.swift */,
+				C63A132F2570C76200C334AD /* PhoneCenter */,
+				C63BC2C9256FA9C500D5C46A /* TwilioAPI */,
+				C63BC272256DF83700D5C46A /* Assets.xcassets */,
+				C63BC274256DF83700D5C46A /* LaunchScreen.storyboard */,
+				C63BC277256DF83700D5C46A /* Info.plist */,
+			);
+			path = KKPhone;
+			sourceTree = "<group>";
+		};
+		C63BC2C9256FA9C500D5C46A /* TwilioAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C63BC2CA256FAA5100D5C46A /* TwilioStudioAPI.swift */,
+			);
+			path = TwilioAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C63BC265256DF83600D5C46A /* KKPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63BC27A256DF83700D5C46A /* Build configuration list for PBXNativeTarget "KKPhone" */;
+			buildPhases = (
+				C63BC262256DF83600D5C46A /* Sources */,
+				C63BC263256DF83600D5C46A /* Frameworks */,
+				C63BC264256DF83600D5C46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKPhone;
+			packageProductDependencies = (
+				C63BC299256DFA4100D5C46A /* SnapKit */,
+				C63BC2C6256F902500D5C46A /* DolphinHTTP */,
+			);
+			productName = KKPhone;
+			productReference = C63BC266256DF83600D5C46A /* KKPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C63BC25E256DF83600D5C46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C63BC265256DF83600D5C46A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C63BC261256DF83600D5C46A /* Build configuration list for PBXProject "KKPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C63BC25D256DF83600D5C46A;
+			packageReferences = (
+				C63BC298256DFA4100D5C46A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C63BC2C5256F902500D5C46A /* XCRemoteSwiftPackageReference "DolphinHTTP" */,
+			);
+			productRefGroup = C63BC267256DF83600D5C46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C63BC265256DF83600D5C46A /* KKPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C63BC264256DF83600D5C46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BC276256DF83700D5C46A /* LaunchScreen.storyboard in Resources */,
+				C63BC273256DF83700D5C46A /* Assets.xcassets in Resources */,
+				C63BC271256DF83600D5C46A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C63BC262256DF83600D5C46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63A13452570C76200C334AD /* PhoneBackView.swift in Sources */,
+				C63A13462570C76200C334AD /* PhoneCallingView.swift in Sources */,
+				C63A134D2570C87000C334AD /* Utilities.swift in Sources */,
+				C63A13402570C76200C334AD /* PhoneManager.swift in Sources */,
+				C63BC26E256DF83600D5C46A /* ViewController.swift in Sources */,
+				C63A13412570C76200C334AD /* PhoneViewModel.swift in Sources */,
+				C63BC26A256DF83600D5C46A /* AppDelegate.swift in Sources */,
+				C63BC26C256DF83600D5C46A /* SceneDelegate.swift in Sources */,
+				C63A13472570C76200C334AD /* PhoneEndCallView.swift in Sources */,
+				C63A13482570C76200C334AD /* PhoneViewController.swift in Sources */,
+				C63A13442570C76200C334AD /* PhoneView.swift in Sources */,
+				C63A13432570C76200C334AD /* PhoneCallView.swift in Sources */,
+				C63BC2CB256FAA5100D5C46A /* TwilioStudioAPI.swift in Sources */,
+				C63A13422570C76200C334AD /* PhoneNumberView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C63BC26F256DF83600D5C46A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63BC270256DF83600D5C46A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C63BC274256DF83700D5C46A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C63BC275256DF83700D5C46A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C63BC278256DF83700D5C46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C63BC279256DF83700D5C46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63BC27B256DF83700D5C46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q26KHN883C;
+				INFOPLIST_FILE = KKPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KKday.KKPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C63BC27C256DF83700D5C46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q26KHN883C;
+				INFOPLIST_FILE = KKPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KKday.KKPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C63BC261256DF83600D5C46A /* Build configuration list for PBXProject "KKPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BC278256DF83700D5C46A /* Debug */,
+				C63BC279256DF83700D5C46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63BC27A256DF83700D5C46A /* Build configuration list for PBXNativeTarget "KKPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63BC27B256DF83700D5C46A /* Debug */,
+				C63BC27C256DF83700D5C46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C63BC298256DFA4100D5C46A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		C63BC2C5256F902500D5C46A /* XCRemoteSwiftPackageReference "DolphinHTTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:WeiTsungCheng/DolphinHTTP.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C63BC299256DFA4100D5C46A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63BC298256DFA4100D5C46A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		C63BC2C6256F902500D5C46A /* DolphinHTTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63BC2C5256F902500D5C46A /* XCRemoteSwiftPackageReference "DolphinHTTP" */;
+			productName = DolphinHTTP;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C63BC25E256DF83600D5C46A /* Project object */;
+}
